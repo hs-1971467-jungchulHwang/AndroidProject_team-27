@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detailTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailUserNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailTitleTextView"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/detailPriceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailUserNameTextView"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/detailDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailPriceTextView"
+        android:padding="16dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/detailStatusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailDescriptionTextView"
+        android:padding="16dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/detailChatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailStatusTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:text="채팅 보내기"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/detailEditButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailDescriptionTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="게시글 수정"
+        android:visibility="visible" />
+
+</RelativeLayout>

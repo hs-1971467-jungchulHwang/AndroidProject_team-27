@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home1" />
+
+    <item
+        android:id="@+id/chatList"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="@string/chat" />
+
+    <item
+        android:id="@+id/myPage"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/info" />
+</menu>
+
+    <!--    네비게이션 탭에 들어갈 탭들-->
+
+    <!--    item태그로 관리하며,-->
+    <!--    item태그의 id는 식별자-->
+    <!--    item태그의 icon은 나타날 아이콘-->
+    <!--    item태그의 title은 나타날 글자를 의미한다.-->

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">market</string>
+    <string name="home">home</string>
+    <string name="chatting">chatting</string>
+    <string name="myInfo">myInfo</string>
+    <string name="no_permission">no_permission\n</string>
+    <string name="req_permission_reason">need permission</string>
+    <string name="home1">홈</string>
+    <string name="chat">채팅</string>
+    <string name="info">내정보</string>
+</resources>
